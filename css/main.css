@@ -1,0 +1,210 @@
+/*********************
+General Program
+*********************/
+/********************************************
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arvo', serif;
+    font-family: 'Suez One', serif;
+********************************************/
+
+/********************
+Site Body 
+********************/ 
+
+/*header of the page */
+
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+    background: limegreen;
+    border-color: green;
+}
+
+/*logo text */    
+
+h1,h2 {
+    text-align: center;
+    color: white;
+}
+
+
+/*body of the page */
+
+body {
+
+    font-family: 'open sans', sans-serif;
+    background-color: white;
+    color: limegreen;
+}
+
+/*footer of the page */
+
+footer {
+    font-size: .75em;
+    text-align: center;
+    clear: both;
+    padding: 50px; 
+    color: dimgrey;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+/********************
+Navigation 
+********************/ 
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 10px;
+}
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+/*navigation background*/
+
+nav {
+    background: green;
+    text-align: right;
+}
+
+/*color of the navigation tabs*/
+
+nav a, nav a:visited {
+    color: white;
+}
+
+/*color of navigation tab when its hoverd */
+
+nav a.selected, nav a:hover {
+    color: darkgreen;
+}
+
+/* Main section of the program */
+
+/********************
+Wraapper ID 
+********************/ 
+
+#wrapper {
+    max-width: 800px;   /*max width of the image has to be in between 800px */
+    margin: 0 auto;     /* Margin of the page is declared here  */
+    padding: 0 5%;      /*padding for the page is declared here */
+    
+    color: black;
+    }
+
+img {
+    max-width: 100%;
+}
+
+/********************
+Gallery ID 
+********************/ 
+
+#gallery {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: lightcyan;
+    color: green;
+}
+
+#gallery li a p {
+
+            margin: 0;
+            padding: 5%;
+            font-size: .75em;
+            color: #bdc3c7
+}
+
+
+/* all links in the program */
+a {
+   text-decoration: none; 
+}
+
+
+/********************
+PAGE: About
+********************/
+ 
+.profile-photo {
+    display: block;
+    max-width:  150px;
+    margin: 0 auto 30px;
+    border-radius: 20%;
+    
+}
+
+
+/*color of the links */
+a {
+    color: blue;
+}
+
+h1 {
+    font-family: 'Baloo Chettan', cursive;
+    margin: 15px 0;
+    font-weight: normal;
+    font-size: 1.75em;
+}
+
+h2 {
+    font-family: 'Suez One', serif;
+    margin: 15px 0 0;
+    font-weight: normal;
+    font-size: 1.25em; 
+}
+
+/********************
+PAGE: Contact 
+********************/
+ 
+.contact-info
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+}
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 30px;
+
+}
+
+.contact-info li.phone a {
+background-image: url('../img/phone.png');
+}
+.contact-info li.mail a {
+background-image: url('../img/mail.png');
+}
+.contact-info li.twitter a {
+background-image: url('../img/twitter.png');
+}
+
+ 
